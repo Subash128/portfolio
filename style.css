@@ -593,8 +593,8 @@ span{
     }
     .home .profession-box .circle{
         position: fixed;
-        width: 540px;
-        height: 540px;
+        width: 440px;
+        height: 440px;
         z-index: -1;
     }
     .home .profession-container .overlay{
