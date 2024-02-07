@@ -79,7 +79,7 @@ body{
     margin-left: 35px;
     opacity: 0;
     animation: slideLeft 1s ease forwards;
-    animation-delay: calc(.1s* var(--i));
+    animation-delay: calc(.2s* var(--i));
 }
 .header.sticky .navbar a{
     color: black;
@@ -632,6 +632,11 @@ span{
     }
     .home .profession-box .profession:nth-child(4){
         transform: rotate(180deg) translate(-210px, -335px);
+    }
+    .navbar a{
+        animation: slideLeft 1s ease forwards;
+        animation-delay: calc(.2s* var(--i));
+
     }
     }
 
