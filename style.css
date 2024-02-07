@@ -582,14 +582,16 @@ span{
         width: 400px;
         height: 400px;
         z-index: -1;
+        display:none;
     }
     .profession-box .profession{
         height: 2px;
         background-color: none;
-        
+        display:none;
     }
     .profession i{
         background-color: none;
+        display:none;
     }
     .home .profession-container .overlay{
         position: fixed;
