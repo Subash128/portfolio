@@ -623,15 +623,25 @@ span{
     }
     .home .profession-box .profession:nth-child(1){
         transform: rotate(-90deg) translate(-110px, -220px);
+        right: 27px;
+        margin-top: 10px;
+        
     }
     .home .profession-box .profession:nth-child(2){
         transform: rotate(0deg) translate(5px, -335px);
+        margin-right: 0px;
+        bottom: 200px;
     }
     .home .profession-box .profession:nth-child(3){
         transform: rotate(90deg) translate(-105px, -440px);
+    
+        bottom: 250px;
+        margin-right: 200px;
     }
     .home .profession-box .profession:nth-child(4){
         transform: rotate(180deg) translate(-210px, -335px);
+        margin-right: 2px;
+        top: 200px;
     }
     .navbar a{
         animation: slideLeft 1s ease forwards;
