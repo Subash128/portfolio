@@ -648,6 +648,9 @@ span{
         animation-delay: calc(.2s* var(--i));
 
     }
+    .home-content h3{
+        margin-top: 52px;
+    }
     }
 
     @media (max-width: 365px) {
