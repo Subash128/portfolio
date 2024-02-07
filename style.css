@@ -124,9 +124,9 @@ body{
     display: none;
 }
 .navbar a:hover{
-   background: var(--primary-color);
    border-radius: 8px;
-   color: #f3740c;
+   color: #333;
+   transition: 1s;
 }
 .toggle{
     display: flex;
