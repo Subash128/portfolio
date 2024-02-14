@@ -494,6 +494,9 @@ span{
         color: #333;
         margin-bottom: .1rem;
     }
+    .bx-menu:before {
+       margin: 10px;
+   }
     .navbar{
         position: absolute;
         top: 100%;
