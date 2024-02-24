@@ -649,16 +649,17 @@ span{
         margin-right: 2px;
         top: 200px;
     }
-    .navbar a{
-        animation: slideLeft 1s ease forwards;
-        animation-delay: calc(.2s* var(--i));
+   .navbar a {
+    animation: slideLeft 2s ease forwards;
+    animation-delay: calc(.0s* var(--i));
+}
 
     }
     .home-content h3{
         margin-top: 52px;
     }
     }
-
+   
     @media (max-width: 365px) {
         #menu-icon{
             display: block;
