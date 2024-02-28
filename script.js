@@ -36,16 +36,14 @@ navbar.classList.remove('active');
 
 
 const toggleIcon = document.querySelector('.toggle-icon');
-const skill_1 = document.querySelector('.skill-box1');
- const skill_2 = document.querySelector('.skill-box2');
+
 
 
 toggleIcon.addEventListener('click', ()=>{
     toggleIcon.classList.toggle('bx-sun');
     document.body.classList.toggle('dark-mode');
    
-    skill_1.setAttribute("class",'dark-mode-skills');
-    skill_2.setAttribute("class",'dark-mode-skills');
+    
 });
 
 //  function change(){
