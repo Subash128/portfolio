@@ -433,12 +433,10 @@ span{
 } */
 .skill-box1,.skill-box2{
     flex: 1 1 30rem;
-    background-color: white;
     padding: 3rem 2rem 4rem;
     border-radius: 2rem;
     box-shadow: 0 .1rem .5rem var(--main-color);
     text-align: center;
-    color: #333;
     
 }
 .skill-box1:hover,.skill-box2:hover{
